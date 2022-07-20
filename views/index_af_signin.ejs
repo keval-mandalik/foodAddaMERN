@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <%- include('../partials/head.ejs')%>
+</head>
+
+<body>
+  <%- include('../partials/navabr_signout')%>
+  <!-- Carousel {Start}-->
+  <div id="crlContainer" class="container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="/public/Images/offer1.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="/public/Images/offers5.png" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="/public/Images/offer4.jpg" alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <!-- Carousel{End} -->
+  <!-- Welcome Carousel{Start} -->
+  <div class="welcome-carousel">
+    <h1>Welcome to FoodAdda</h1>
+    <h5>FoodAdda is the best way that deliver to you or quickly order food online . Whether
+      looking for breakfast, lunch, dinner or late night snack, we have it all.</h5>
+
+  </div>
+  <!-- Welcome Carousel{End} -->
+  <div class="orderBtn">
+    <button id="order" type="button" class="btn btn-warning"><a href="/order"
+        style="text-decoration: none; color: #212529;">Order Now</a></button>
+  </div>
+
+  <!-- ------------------------------------------------------------------------------------- -->
+  <!--------------------Below Order Button{START} -------------------->
+  <div class="detail">
+    <div class="minimul-order">
+      <img src="/public/Images/under_wc1.png" alt="" width="112px" height="206">
+      <h3>No Minimum Order</h3>
+      <p>Order in for yourself or for the group, with no restrictions on order value</p>
+
+    </div>
+    <div class="live-tracking">
+      <img src="/public/Images/under_wc2.png" alt="" width="112px" height="206">
+      <h3>Live Order Tracking</h3>
+      <p>Know where your order is at all times, from the restaurant to your doorstep</p>
+
+    </div>
+    <div class="fast-delivery">
+      <img src="/public/Images/under_wc3.png" alt="" width="112px" height="206">
+      <h3>Lightning-Fast Delivery</h3>
+      <p>Experience FoodAdda superfast delivery for food delivered fresh & on time</p>
+
+    </div>
+  </div>
+  <!--------------------Below Order Button{END}-------------------->
+
+
+  <!------------------------------- just a space maker  -------------------------------------->
+
+  <!--------------------Costomer Review {STRAT}-------------------->
+
+  
+  <%- include('../partials/reviews.ejs')%>
+  
+
+
+
+  <!--------------------Costomer Review {END}-------------------->
+
+
+
+  <!------------------------------- just a space maker  -------------------------------------->
+  
+  <!-- ------------------------------------------- footer ---------------------------------------- -->
+
+  <!-- Footer -->
+  <footer class="page-footer pt-4 text-light">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+      <!-- Footer links -->
+      <div class="row text-center text-md-left mt-3 pb-3">
+
+        <!-- Grid column -->
+        <div id="fc1" class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <div class="fLogo">
+            <img src="/public/Images/noBGLogo.png" alt="logo" width="100px">
+          </div>
+          <div style="text-align: center;font-size: 25px;"> SOCIAL LINKS</div><br>
+          <div class="Social mx-auto">
+
+            <a href="">
+              <img src="/public/Images/facebook1.png" alt="">
+              <p style="color:#007bff;"> Facebook</p>
+            </a>
+            <a href="">
+              <img src="/public/Images/Instagram.png" alt="">
+              <p style="color: rgb(233, 80, 187);"> Instagram</p>
+            </a>
+            <a href="">
+              <img src="/public/Images/Youtube.png" alt="">
+              <p style="color: rgb(255, 30, 0);">Youtube</p>
+            </a>
+          </div>
+        </div>
+        <!-- Grid column -->
+
+        <hr class="w-100 clearfix d-md-none">
+
+        <!-- Grid column -->
+        <div id="fc2" class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-5">
+          <h4 class="text-uppercase mb-4 font-weight-bold">For You</h4>
+          <p>
+            <a class="flink" href="#!">Privacy</a>
+          </p>
+          <p>
+            <a class="flink" href="#!">Security</a>
+          </p>
+          <p>
+            <a class="flink" href="#!">Terms</a>
+          </p>
+          <p>
+            <a class="flink" href="#!">Sitemap</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <hr class="w-100 clearfix d-md-none">
+
+        <!-- Grid column -->
+        <div id="fc3" class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-5">
+          <h4 class="text-uppercase mb-4 font-weight-bold">For Foodies</h4>
+          <p>
+            <a class="flink" href="#!">Code of Conduct</a>
+          </p>
+          <p>
+            <a class="flink" href="#!">Blogger Help</a>
+          </p>
+          <p>
+            <a class="flink" href="#!">Community</a>
+          </p>
+          <p>
+            <a class="flink" href="#!">Help</a>
+          </p>
+        </div>
+
+        <!-- Grid column -->
+        <hr class="w-100 clearfix d-md-none">
+
+        <!-- Grid column -->
+        <div id="fc4" class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-5">
+          <h4 class="text-uppercase mb-4 font-weight-bold">Contact</h4>
+          <p>
+            <span style="font-size: 26px;vertical-align: sub;" class="material-icons">
+              home</span>&nbsp; FoodAdda Restaurants Building, Oppo. Samras Hostel,Vadodara,Gujarat,India
+          </p>
+          <p>
+            <span style="font-size: 26px;vertical-align: sub;" class="material-icons">
+              email</span>&nbsp;foodadda@gmail.com
+          </p>
+          <p>
+            <span style="font-size: 26px;vertical-align: sub;" class="material-icons">
+              phone</span>&nbsp;+91 987 654 3210
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Footer links -->
+
+      <hr style="background-color: aliceblue;">
+
+      <!-- Grid row -->
+      <div class="row d-flex align-items-center">
+
+        <!-- Grid column -->
+        <div class="col-md-7 col-lg-8 d-inline-block">
+
+          <!--Copyright-->
+          <p class="text-center text-md-right">© 2021 Copyright:
+            <a href="#">
+              <strong> FoodAdda Restaurants</strong>
+            </a>
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-5 col-lg-4 ml-lg-0">
+
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+  </footer>
+  <!-- Footer -->
+
+
+
+
+
+
+  <!-- ------------------------------------------------------------------------------------------- -->
+  <!-- ------------------------------------------------------------------------------------------- -->
+
+  <!--Whatsapp Support-->
+  <a href="https://api.whatsapp.com/send?phone=919328681205&text=I Want to Order Food." class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+  </a>
+  <!--Whatsapp Support-->
+
+  <%- include('../partials/script.ejs')%>
+
+</body>
+
+</html>

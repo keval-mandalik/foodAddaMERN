@@ -1,0 +1,652 @@
+*{
+    margin : 0;
+    padding : 0;
+    font-family: 'Baloo Bhai 2', cursive;
+  }
+body{
+  background: url('/public/Images/240725.jpg') fixed;
+}
+/* ------------------------------------------ NAVBAR ------------------------------------------ */
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #f0f0f0;
+  transform:translateY(-3px)
+}
+#logo{
+    width: 60px;
+    border-radius: 10px;
+}
+/* hover effect navbar  */
+/* .nav-link :hover .nav-item{
+  border-bottom: 1px solid #ff8128;
+}
+ */
+
+
+/*****Sign in and Sign in buttone margin*****/
+
+.sign{
+    margin-right: 6px;
+}
+
+ /**************MODAL{SIGN UP}**************/
+ .signup_dialog{
+    max-width:60%;
+  }
+  .signup_img{
+      background-image: url('/public/Images/signup.jpg');
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+  }
+  .signup_content h3{
+    margin-bottom: 0;
+    font-weight: 600;
+  }
+
+  .signup_form .form-control{
+    font-size: 14px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    border-color: #f0f0f0;
+  }
+  .signup_form .form-check-label{
+    font-size: 14px;
+    margin-bottom: 1rem;
+  }
+  .signup_form .btn-primary{
+    color: white;
+    font-size: 14px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    background-color: #fc0357;
+    border-color: #fc0357;
+  }
+
+  .signup_form .btn-primary:not(:disabled):not(.disabled):active{
+    background-color: #fc0357;
+    border-color: #fc0357;
+  }
+
+  .signup_form .btn-primary:not(:disabled):not(.disabled):active:focus{
+    box-shadow: 0 0 0 0.2rem #fc035773;
+  }
+
+  .btn-facebook{
+    color: white;
+    font-size: 14px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    background-color: #1977f3;
+    border-color: #1977f3;
+  }
+  .btn-google{
+    color: black;
+    font-size: 14px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    background-color: rgb(233, 233, 233);
+    border-color: rgb(233, 233, 233);
+  }
+
+  .btn img{
+      margin-right: 6px;
+  }
+
+  .signup_text{
+      text-align: center;
+  }
+  /**************MODAL{SIGN UP}**************/
+ /**************MODAL{SIGN IN}**************/
+ .signin_dialog{
+    max-width:60%;
+  }
+  .signin_img{
+      background-image: url('/public/Images/signup.jpg');
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+  }
+  .signin_content h3{
+    margin-bottom: 0;
+    font-weight: 600;
+  }
+
+  .signin_form .form-control{
+    font-size: 14px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    border-color: #f0f0f0;
+  }
+  .signin_form .form-check-label{
+    font-size: 14px;
+    margin-bottom: 1rem;
+  }
+  .signin_form .btn-primary{
+    color: white;
+    font-size: 14px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    background-color: #fc0357;
+    border-color: #fc0357;
+  }
+
+  .signin_form .btn-primary:not(:disabled):not(.disabled):active{
+    background-color: #fc0357;
+    border-color: #fc0357;
+  }
+
+  .signin_form .btn-primary:not(:disabled):not(.disabled):active:focus{
+    box-shadow: 0 0 0 0.2rem #fc035773;
+  }
+
+  .signup_text{
+      text-align: center;
+  }
+  /*MODAL{SIGN UP}*/
+
+  /*------------------------------------ Whatsapp Support---------------------------------------- */
+
+  /* Whatsapp Support */
+ 
+  .float{
+position:fixed;
+width:60px;
+height:60px;
+bottom:40px;
+right:40px;
+background-color:#25d366;
+color:#FFF;
+border-radius:50px;
+text-align:center;
+font-size:30px;
+box-shadow: 2px 2px 3px #999;
+z-index:100;
+}
+
+.my-float{
+margin-top:16px;
+}
+
+  /* -------------------------------------carousel----------------------------------------------- */
+  /* Carousel Container */
+  #crlContainer{
+    margin: 8px auto;
+  }
+
+  /*---------------------------------------- gallery----------------------------------------------- */
+  .gallery{
+    margin-top: 30px;
+  }
+  #ourFood span{
+    color: rgb(252, 128, 26);
+   text-align: center;
+   font-size: 50px;
+   display: block;
+   margin-bottom: 20px;
+  }
+  #ourRest span{
+    color: #ff8128;
+   text-align: center;
+   font-size: 50px;
+   display: block;
+   margin-top: 30px;
+   margin-bottom: 20px;
+  }
+  .box{
+    display: inline-block;
+    margin: 10px;
+  }
+
+  .box img{
+    width: 325px;
+    height: 260px;
+  }
+  .box img:hover{
+    filter: brightness(80%);
+    margin: -10px;
+    width: 340px;
+    height: 275px;
+  }
+
+  /**************WELCOME CAROUSEL{START}**************/
+  .welcome-carousel{
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+  }
+  .welcome-carousel h5{
+
+    margin: 10px auto;
+    display: block;
+    width: 67%;
+    justify-content: center;
+  }
+
+  /**************WELCOME CAROUSEL{END}**************/
+
+  /* ----------------------------------------order button ------------------------------------ */
+
+  #order{
+    margin: 30px auto;
+    display: block;
+    font-size: 30px;
+    padding: 6px 20px;
+    border-radius: 30px;
+  }
+
+  /**************Below Order Button{Start}**************/
+    .detail{
+      color: white;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      
+    }
+
+    .detail .minimul-order{
+      justify-content: center;
+      text-align: center;
+    }
+    .detail .minimul-order p{
+      display: block;
+      margin: 10px auto;
+      width: 70%;
+    }
+    .detail .live-tracking{
+      justify-content: center;
+      text-align: center;
+    }
+    .detail .live-tracking p{
+      display: block;
+      margin: 10px auto;
+      width: 70%;
+    }
+    .detail .fast-delivery{
+      justify-content: center;
+      text-align: center;
+    }
+    .detail .fast-delivery p{
+      display: block;
+      margin: 10px auto;
+      width: 70%;
+    }
+    
+    
+  /**************Below Order Button{End}**************/
+  
+/* --------------------------------------------- footer ---------------------------------------- */
+.page-footer{
+  background-color: rgba(0, 0, 0, 0.3);
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+}
+.flink{
+  text-decoration: none !important;
+  color:#d39e00;
+}
+
+.fLogo{
+  margin: 25px 100px;
+ 
+}
+.Social{
+  display: flex;
+  width: 300px;
+  font-size: 17px;
+}
+.Social img{
+width: 70px;
+}
+.Social a{
+margin: auto;
+}
+.Social a:hover{
+text-decoration: none;
+}
+#fc4 p{
+  color:#d39e00;
+}
+ 
+/* --------------------------------------------- footer{END} ---------------------------------------- */
+
+
+/* --------------------------------------------- Contact Us{Start} ---------------------------------------- */
+
+
+.contactUs{
+  position: relative;
+  width: 100%;
+  padding: 0px 100px;
+}
+.contactUs .title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+.contactUs .title h2{
+  color: white;
+}
+
+.form{
+  grid-area: form;
+  /* background-color: white; */
+  border-radius: 10px;
+  padding: 10px;
+}
+.info{
+  grid-area: info;
+}
+.map{
+  grid-area: map;
+}
+.cantact{
+  padding: 40px;
+  /* background: white; */
+  /* box-shadow: 0 5px 35px rgba(0,0,0,0.5); */
+}
+.contactBox{
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 5fr 4fr;
+    grid-template-areas: 
+    "form info"
+    "form map";
+    grid-gap: 20px;
+    margin-top: 20px;
+    /* background: white; */
+}
+
+.contact h3{
+  color: white;
+  font-weight: 500;
+}
+
+/*Form*/
+.formBox{
+  position: relative;
+  width: 100%;
+}
+.formBox .row50{
+  display: flex;
+  gap: 20px;
+}
+.inputBox{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+.formBox .row100 .inputBox{
+  width: 100%;
+}
+
+.inputBox span{
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 500;
+ 
+
+}
+
+.inputBox input{
+  padding: 10px;
+  font-size: 1.1em;
+  outline:none;
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+.inputBox textarea{
+  padding: 10px;
+  font-size: 1.1em;
+  outline:none;
+  border: 1px solid #333;
+  border-radius: 10px;
+  resize: none;
+  min-height: 150px;
+  margin-bottom: 10px;
+}
+
+.inputBox input[type="submit"]{
+  color: black;
+  background:white;
+  border: none;
+  font-size: 1.1em;
+  max-width: 120px;
+  font-weight: 500;
+  cursor:pointer;
+  padding: 10px 10px;
+}
+
+/*Info*/
+.info{
+  background:#0e3959;
+  padding: 15px;
+  border-radius: 10px;
+}
+.info h3{
+  color: white;
+}
+
+.info .infoBox div{
+  display: flex;
+  align-items: center;
+  margin-bottom:10px ;
+}
+
+.info .infoBox div span{
+  min-width: 40px;
+  height: 40px;
+  color: white;
+  background-color: #18b7ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.info .infoBox div p{
+  color: white;
+  margin: 0;
+  font-size: 1.1em;
+}
+.info .infoBox div a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+.sci{
+  margin-top: 40px;
+  display: flex;
+}
+
+.sci li{
+  list-style: none;
+  margin-right: 15px;
+}
+
+.sci li a{
+  color: rgb(235, 235, 235);
+  font-size: 2em;
+}
+.sci li a:hover{
+  color: white;
+}
+
+.map{
+  padding: 0;
+}
+.map iframe{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+/* Responsive*/
+@media (max-width:991px){
+  .contactUs{
+    padding: 20px;
+  }
+  .contactBox{
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:"form"
+                        " info"
+                        " map";
+    grid-gap: 20px;
+    margin-top: 20px;
+    /* background: white; */
+}
+
+  .map{
+    min-height: 300px;
+    padding: 0;
+  }
+  .formBox .row50 {
+    display: flex;
+    gap: 0;
+    flex-direction: column;
+}
+.inputBox{
+  width: 100%;
+}
+.contact{
+  padding: 30px;
+}
+}
+/* --------------------------------------------- Contact Us{END} ---------------------------------------- */
+
+
+ 
+.demo{ background: transparent; }
+.testimonial{
+    background: #fff;
+    text-align: center;
+    padding: 30px 30px 50px;
+    margin: 0 15px 100px;
+    position: relative;
+}
+.testimonial:before,
+.testimonial:after{
+    content: "";
+    border-top: 40px solid #fff;
+    border-right: 125px solid transparent;
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+}
+.testimonial:after{
+    border-right: none;
+    border-left: 125px solid transparent;
+    left: auto;
+    right: 0;
+}
+.testimonial .icon{
+    display: inline-block;
+    font-size: 80px;
+    color: #ffc107;
+    margin-bottom: 20px;
+    opacity: 0.6;
+}
+.testimonial .description{
+    font-size: 15px;
+    color: #777;
+    text-align: left;
+    margin-bottom: 30px;
+    opacity: 0.8;
+}
+.testimonial .testimonial-content{
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+.testimonial .pic{
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 2px 2px #daad86;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+}
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+}
+.testimonial .title{
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 0 0 5px 0;
+}
+.testimonial .post{
+    display: block;
+    font-size: 14px;
+    color: #ffd9b8;
+}
+.owl-theme .owl-controls{
+    margin-top: 0;
+}
+.owl-theme .owl-controls .owl-page span{
+    width: 32px;
+    height: 10px;
+    background: #fff;
+    border: 2px solid #bd986b;
+    margin: 5px;
+    opacity: 1;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+    background: #ffd9b8;
+    border-color: #fff;
+}
+@media only screen and (max-width: 650px) and (min-width: 400px){
+    .testimonial:before{ border-right: 325px solid transparent; }
+    .testimonial:after{ border-left: 325px solid transparent; }
+}
+/* form{
+  display: block;
+  width: 50%;
+  margin: 5% auto;
+} */
+/* .container{
+  border: 2px solid white;
+  box-shadow: rgba(255, 255, 255, 0.3) 0px 19px 38px, rgba(255, 255, 255, 0.22) 0px 15px 12px;
+  border-radius: 10px;
+  padding: 20px;
+} */
+
+.mb-3 .form-label{
+  color: white;
+}
+.form-check-label{
+  color: white;
+}
+.sign_nav{
+  display: block !important;
+  width: 50%;
+  margin: 10px auto;
+}
+.form-control{
+  background-image: linear-gradient(to right, white,#ffc107);
+  /* background-image: linear-gradient(#ffc107, white); */
+}
+
+.footer{
+  color: white;
+  display: block;
+  width: 50%;
+  margin: 10px auto;
+}
+
+.footer a{
+  color: #ffc107;
+}
